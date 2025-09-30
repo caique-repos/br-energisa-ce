@@ -1,0 +1,24 @@
+{
+  "name": "br-energisa-db2-agent",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:technology-garage-la/br-energisa-db2-agent.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "docx": "^9.5.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "ibm_db": "^3.3.2",
+    "ibm-cos-sdk": "^1.14.1"
+  }
+}
